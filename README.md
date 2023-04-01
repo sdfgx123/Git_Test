@@ -6,7 +6,7 @@
 02. .gitignore 파일 사용법 및 테스트
 03. Git branch 사용법 및 branch 간 
 
-<br><br>
+<br>
 
 ## 최근 특이사항
 1. (04/01) 로컬 저장소에서 commit 까지만 한 뒤, # git reset {바로 이전 Hash}를 통해 commit 내용을 되돌리려 했으나 워킹 디렉토리까지 날아가 버림.
