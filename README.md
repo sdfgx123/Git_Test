@@ -9,9 +9,8 @@
 <br>
 
 ## 최근 특이사항
-1. (04/01) 로컬 저장소에서 commit 까지만 한 뒤, # git reset {바로 이전 Hash}를 통해 commit 내용을 되돌리려 했으나 워킹 디렉토리까지 날아가 버림.
-<br>
-1.1. 다른 블로그에서 찾아봤을 때 # git reset에서 옵션 안 주면 --mixed가 default라서 워킹 디렉토리는 안 날라갈 줄 알았는데 날라가 버림. > 이 부분 재현해서 테스트
+* (04/01) 로컬 저장소에서 commit 까지만 한 뒤, # git reset {바로 이전 Hash}를 통해 commit 내용을 되돌리려 했으나 워킹 디렉토리까지 날아가 버림.
+  *다른 블로그에서 찾아봤을 때 # git reset에서 옵션 안 주면 --mixed가 default라서 워킹 디렉토리는 안 날라갈 줄 알았는데 날라가 버림. > 이 부분 재현해서 테스트
 
 2. (04/01) 외부 저장소 fork > clone > add > commit > push > pull request > 실수로 merge > 변경사항 rm으로 삭제(원복) 후 다시 merge > 정상 pull request 함
 <br>
